@@ -1,3 +1,5 @@
+![LOGO](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Logo.png)
+
 # TTextField
 TTextField is developed to help developers can initiate a fully standard textfield including title, placeholder and error message in fast and convinient way without having to write many lines of codes
   
