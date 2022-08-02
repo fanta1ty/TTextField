@@ -70,6 +70,10 @@ textField.errorMessage = "The e-mail address entered is incorrect"
 ![alt text](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot%201.png)
 ![alt text](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot%202.png)
 
+## Requirements
+- iOS 9.3 or later
+- Swift 5.0 or later
+
 ## Author
 
 fanta1ty, thinhnguyen12389@gmail.com
