@@ -1,0 +1,16 @@
+PODS:
+  - TTextField (0.1.0)
+
+DEPENDENCIES:
+  - TTextField (from `../`)
+
+EXTERNAL SOURCES:
+  TTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTextField: 8732548179b7424335aa8a91cdd93d0e6687fecf
+
+PODFILE CHECKSUM: 4a164d6d87f3cfb37da1fce8c4b69216d37aae47
+
+COCOAPODS: 1.11.3
