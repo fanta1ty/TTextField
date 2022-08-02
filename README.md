@@ -21,6 +21,51 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TTextField'
 ```
+## Usage
+```swift
+import TTextField
+```
+
+1) Initiate ``TTextField``
+```swift
+let textField = TTextField()
+```
+
+2) To show title, please input into ``title`` property
+```swift
+textField.title = "Email address"
+```
+
+3) To show the placeholder, please input into ``placeholder`` property
+```swift
+textField.placeholder = "Enter your work email address"
+```
+
+4) To enable/disable underline, please setup into ``isUnderline`` property
+```swift
+textField.isUnderline = true
+```
+
+5) To show error message, please input into ``errorMessage`` property
+```swift
+textField.errorMessage = "The e-mail address entered is incorrect"
+```
+
+6) To change settings more deeply, you can refer to the following functions and properties:
+```swift
+- underlineWidth: CGFloat
+- inactiveUnderlineColor: UIColor
+- inputRectLeftInset: CGFloat
+- extraSpacingTitle: CGFloat
+- appearanceFont: AppearanceFont
+- errorImage: UIImage
+- showsCaret: Bool
+
+- func applyErrorUnderlineStyle()
+- func applyNonErrorUnderlineStyle()
+```
+
+
 
 ## Author
 
