@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		03B3E457C08436F34D2BC762 /* Pods-TTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-TTextField_Example/Pods-TTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		257ECAFD3995A354160354F3 /* TTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTextField.podspec; path = ../TTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257ECAFD3995A354160354F3 /* TTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTextField.podspec; path = ../TTextField.podspec; sourceTree = "<group>"; };
 		27CFC629CE99875B0682341D /* Pods_TTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
