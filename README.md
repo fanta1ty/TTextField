@@ -67,8 +67,7 @@ textField.errorMessage = "The e-mail address entered is incorrect"
 - func applyNonErrorUnderlineStyle()
 ```
 
-![alt text](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot%201.png)
-![alt text](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot%202.png)
+![til](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot.gif)
 
 ## Requirements
 - iOS 9.3 or later
