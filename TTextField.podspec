@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TTextField'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'TTextField is a simple and flexible UI component fully written in Swift.'
   s.description      = 'TTextField is developed to help developers can initiate a fully standard textfield including title, placeholder and error message in fast and convinient way without having to write many lines of codes'
 

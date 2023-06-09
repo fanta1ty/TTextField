@@ -27,7 +27,12 @@ private extension UIColor {
 }
 
 private extension TTextField {
+    #if SWIFT_PACKAGE
+    static let bundle = Bundle.module
+    #else
     static let bundle = Bundle(for: TTextField.self)
+    #endif
+    
 
     enum Const {
         // MARK: - Colors
