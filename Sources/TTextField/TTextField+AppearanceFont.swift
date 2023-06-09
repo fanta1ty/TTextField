@@ -6,6 +6,7 @@
 ////
 
 import Foundation
+import UIKit
 
 public extension TTextField {
     struct AppearanceFont {
@@ -13,9 +14,11 @@ public extension TTextField {
         var errorMessageFont: UIFont
         var titleFont: UIFont
 
-        public init(fieldFont: UIFont = UIFont.systemFont(ofSize: 16),
-                    errorMessageFont: UIFont = UIFont.systemFont(ofSize: 14),
-                    titleFont: UIFont = UIFont.systemFont(ofSize: 12)) {
+        public init(
+            fieldFont: UIFont = UIFont.systemFont(ofSize: 16),
+            errorMessageFont: UIFont = UIFont.systemFont(ofSize: 14),
+            titleFont: UIFont = UIFont.systemFont(ofSize: 12)
+        ) {
             self.fieldFont = fieldFont
             self.errorMessageFont = errorMessageFont
             self.titleFont = titleFont

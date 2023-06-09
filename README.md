@@ -14,15 +14,30 @@ TTextField is developed to help developers can initiate a fully standard textfie
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 11.0+
+- Swift 5
 
 ## Installation
 
-TTextField is available through [CocoaPods](https://cocoapods.org). To install
+### From CocoaPods
+`TTextField` is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'TTextField'
 ```
+Second, install `TProgressHUD` into your project:
+```ruby
+pod install
+```
+
+### Swift Package
+`TTextField` is designed for Swift 5. To depend on the logging API package, you need to declare your dependency in your `Package.swift`
+
+```swift
+.package(url: "https://github.com/fanta1ty/TTextField.git", brand: "master"),
+```
+
 ## Usage
 ```swift
 import TTextField
@@ -68,10 +83,6 @@ textField.errorMessage = "The e-mail address entered is incorrect"
 ```
 
 ![til](https://github.com/fanta1ty/TTextField/blob/master/ScreenShot/Screen%20Shot.gif)
-
-## Requirements
-- iOS 9.3 or later
-- Swift 5.0 or later
 
 ## Author
 
